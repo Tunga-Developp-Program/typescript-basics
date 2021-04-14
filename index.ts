@@ -1,10 +1,7 @@
-// declare variable ;: ES6 syntax
 
-// we use let instead of var
+// we use let or const instead of var for declaration of variables
 
 // Types : INBUILT TYPES BY TS.
-
-// most of primitive datatypes are considered types
 
 //type string.
 let myName:string = "Eric";
@@ -12,19 +9,20 @@ let myName:string = "Eric";
 //type boolean.
 let truthy:boolean ; // declaring a variable and not assigned it
 
-// type number.
+// type number...
 let num :number;
 
-// number array.
+// number array...
 let myNumArray:number[];
 myNumArray = [1,3,6]
 
-// string array
+// string array..
 let myStringArray:string[]= ["hello", "hhh"]
 
-//boolean array
+//boolean array ..
 let myBooleanArray:boolean[]=[true, false]
 
+// object array ..
 let myObjArray:object[]=[{eric:"eric"}, [1,2,2]]
 
 // type object
@@ -33,7 +31,3 @@ let myObj:object ={
     age:30,
 }
 
-
-// types && interfaces....
-
-let myString:
