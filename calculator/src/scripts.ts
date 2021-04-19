@@ -1,3 +1,5 @@
+import Addition from "./add"
+
 let a;
 console.log(" Hello World");
 
@@ -25,10 +27,6 @@ let Answer = document.querySelector(".answer") as HTMLHeadingElement;
 
 console.log(typeof inputOne.value);
 
-const Addition = ():void => {
-  let answer = parseInt(inputTwo.value) + parseInt(inputOne.value);
-  Answer.innerText = answer.toString();
- 
-};
+
 
 Button.onclick = Addition

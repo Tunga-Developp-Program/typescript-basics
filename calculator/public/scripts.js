@@ -1,4 +1,5 @@
-var a;
+"use strict";
+let a;
 console.log(" Hello World");
 // Addition Function..
 // function Adds() :string{
@@ -6,19 +7,20 @@ console.log(" Hello World");
 // }
 // This is an arrow function : Declaration a function
 // The type after the () is for the type of the return statement .
-var Add = function (a, b) {
-    return a + "+" + b + " = " + (a + b);
+const Add = (a, b) => {
+    return `${a}+${b} = ${a + b}`;
 };
 // Call a function.
 console.log(Add(2, 3));
 // Referencing our html elements
-var inputOne = document.querySelector(".input-one");
-var inputTwo = document.querySelector(".input-two");
-var Button = document.querySelector(".btn-add");
-var Answer = document.querySelector(".answer");
+let inputOne = document.querySelector(".input-one");
+let inputTwo = document.querySelector(".input-two");
+let Button = document.querySelector(".btn-add");
+let Answer = document.querySelector(".answer");
 console.log(typeof inputOne.value);
-var Addition = function () {
-    var answer = parseInt(inputTwo.value) + parseInt(inputOne.value);
+const Addition = () => {
+    let answer = parseInt(inputTwo.value) + parseInt(inputOne.value);
     Answer.innerText = answer.toString();
+    console.log(Answer);
 };
 Button.onclick = Addition;
