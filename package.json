@@ -20,7 +20,7 @@
     "url": "https://github.com/Tunga-Developp-Program/typescript-basics/issues"
   },
   "homepage": "https://github.com/Tunga-Developp-Program/typescript-basics#readme",
-  "dependencies": {
+  "devDependencies": {
     "moment": "^2.29.1",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0"
