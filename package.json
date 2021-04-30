@@ -1,0 +1,28 @@
+{
+  "name": "module-bundlers",
+  "version": "1.0.0",
+  "description": "module bundlers",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tunga-Developp-Program/typescript-basics.git"
+  },
+  "keywords": [
+    "notes",
+    "random stuff"
+  ],
+  "author": "Eric Muhwezi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tunga-Developp-Program/typescript-basics/issues"
+  },
+  "homepage": "https://github.com/Tunga-Developp-Program/typescript-basics#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
